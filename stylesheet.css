@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #51C9F1;
+}
+
+header{
+    background-color: blue;
+}
+/*alterando fundo*/
+nav{
+    background-color: blue;
+}
+
+/*tirando as bolinhas do menu, definindo distancia entre eles e alinhando-os para direita*/
+nav ul{
+    list-style-type: none;
+    padding: 10px;
+    padding-top: 20px;
+    text-align: right;
+}
+/*decorando os titulos e os links*/
+nav ul li a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+/*deixando as palavras um do lado da outra*/
+nav ul li{
+    display: inline;
+    margin: 0 15px;
+}
+
+header h1{
+    font-size: 35px;
+    color: #b5e8c3;
+    padding: 10px;
+    padding-left: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+section h2{
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    color: brown;
+    padding-top: 20px;
+    text-align: right;
+}
+section p{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color:brown;
+    padding: 5px;
+    padding-top: 20px;
+    text-align: right;
+}
+
+img{
+    width: 250px;
+    height: 200px;
+    padding-left: 20px;
+}
